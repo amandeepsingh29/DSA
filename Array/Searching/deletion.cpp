@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+
+
 // <----------DELETION------------->
 void deletion(int arr[],int n, int indx)
 {
@@ -9,10 +11,6 @@ void deletion(int arr[],int n, int indx)
     }
 }
 // <------------------------------->
-
-
-
-
 
 // <---------------PRINTING ARRAY------------------>
 void arrayTraverse(int arr[],int n){

@@ -37,11 +37,11 @@ void createll(int A[],int n){
 
 
 
-// <-------------VIA RECURSSION--------------->
+// <-------------VIA RECURSSION REVERSE PRINTING--------------->
 void display(struct Node *p){
     if(p!=NULL){
-         cout<<p->data<<"\t";
          display(p->next);
+         cout<<p->data<<"\t";
     }
 }
 // <------------------------------------------>

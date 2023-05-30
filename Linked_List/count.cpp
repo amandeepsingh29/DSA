@@ -35,16 +35,14 @@ int count(struct Node *p){
 // <------------------------------------------------------------>
 
 // <---------RECURSIVLY COUNTING LENGTH OR NODES OF Linked List------------>
+// <-----------------------CLEVER CODE ------------------------------------>
+
 int Rcount (struct Node *p){
     if(p==0)
         return 0;
     else 
         return count(p->next)+1;
 }
-
-
-
-
 // <----------------------------------------------------------------------->
 
 int main(){

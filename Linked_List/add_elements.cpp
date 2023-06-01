@@ -54,6 +54,14 @@ int sumll(struct Node *p){
     return(sum);
 }
 
+int Radd(struct Node *p){
+    if(p==0){
+        return 0;
+    }
+    else{
+        return Radd(p->next)+ p->data;
+    }
+}
 
 
 int main(){
@@ -62,6 +70,7 @@ int main(){
 
     int a[5]={0,55,88,44,66};
     createll(a,5);
-    cout<< "sun is "<<sumll(first);
+    cout<< "sun is "<<sumll(first)<<endl;
+    cout<< "sun is "<<Radd(first);
     
 }
